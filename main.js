@@ -4,6 +4,7 @@
 	ctx = canvas.getContext('2d');
 	ballImage = document.getElementById('ballImage');
 	ballImage1 = document.getElementById('ballImage1');
+	ballImage2 = document.getElementById('ballImage2');
 	
 	window.addEventListener('resize',resizeCanvas);
 	resizeCanvas();
