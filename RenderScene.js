@@ -212,6 +212,10 @@
 	{
 		ctx.drawImage(ballImage1,x-this.r,y-this.r,this.r*2,this.r*2);
 	},
+	 drawBall2: function(x,y)
+	{
+		ctx.drawImage(ballImage2,x-this.r,y-this.r,this.r*2,this.r*2);
+	},
 	
 	drawLine: function(x1,y1,x2,y2)
 	{
