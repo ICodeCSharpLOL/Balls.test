@@ -55,6 +55,9 @@
 	document.getElementById('segment4').addEventListener('click',function(e){
 		renderer.segmentedChanged(3);
 	});
+	 document.getElementById('segment4').addEventListener('click',function(e){
+		renderer.segmentedChanged(4);
+	});
 	
 	document.getElementById('switch1').addEventListener('click',function(e){
 		var mSwitch=e.target;
