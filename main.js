@@ -55,7 +55,7 @@
 	document.getElementById('segment4').addEventListener('click',function(e){
 		renderer.segmentedChanged(3);
 	});
-	 document.getElementById('segment4').addEventListener('click',function(e){
+	 document.getElementById('segment5').addEventListener('click',function(e){
 		renderer.segmentedChanged(4);
 	});
 	
