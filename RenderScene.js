@@ -155,6 +155,9 @@
 						this.drawLine(this.x[i-1],this.y[i-1],this.x[i],this.y[i]);
 					}
 					break;
+				case 4:
+					this.drawBall2(this.x[i],this.y[i]);
+					break;
 			}
 		}
 	},
